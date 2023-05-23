@@ -1,0 +1,22 @@
+Project Scenario: Real-Time Analytics System for FantasiaFlix
+
+Overview:
+FantasiaFlix wants to gain deeper insights into user behavior on its streaming service. The aim is to build a real-time analytics system that handles event data tied to user activities, like logging in, starting a stream, pausing, stopping, rating content, adding/removing content from the watchlist, and more. The system should be equipped to ingest, process, and analyze a high volume of events in real time.
+
+Assignment:
+
+1. Data Modeling (5 hours)
+
+Design a relational and NoSQL database schema for storing the processed event data. Keep in mind the type of data points that would be valuable for FantasiaFlix to analyze and how they should be stored for optimal analysis.
+Consider the representation of users, content (movies, series, episodes), and events.
+2. API Development (8 hours)
+
+Design a REST API that could be utilized to send event data to your real-time analytics system.
+Also, develop a fundamental GraphQL API that could be used to query the processed data. Think about the kind of queries FantasiaFlix might be interested in, like a user's watch history, popular content, etc.
+3. Real-Time Data Processing (7 hours)
+
+Develop a basic simulation of a real-time data processing system using Java. Consider using Kafka as your message queue to ingest and process data.
+Differentiate how different types of events are handled. For instance, a 'start stream' event could increment a 'currently watching' counter, while a 'rating' event might update an average rating for a piece of content.
+Remember, this is a simplified version of what a real-world system would look like and is designed to be achievable within the specified timeframe. Real systems would involve more complex technologies (like Spark or Flink for data processing), more comprehensive data validation and error handling, and much more complex data processing logic. However, this project should provide an opportunity to practice working with the technologies listed in the job description and to conceptualize their application in a real-world scenario.
+
+As you navigate through these tasks, make sure to document your thought process and decisions as these are likely to be the kinds of things you'd discuss in an interview. The emphasis here is on your understanding and approach rather than a fully functional, production-ready system.
