@@ -1,0 +1,3 @@
+[submodule "mediaNetwork"]
+	path = mediaNetwork
+	url = git@github.com:SunGodRamen/nonplus.git
